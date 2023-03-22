@@ -1,14 +1,12 @@
 #include "main.h"
+/**
+ * main - main function
+ * _putchar: print the alphabets putchar
+ * Return: Always 0
+*/
 
-	/**
-	 * main - Entry point
-	 * Description: putcharcode
-	 * @parameter: int 
-	 * Return: Always 0
-	 */
-
-	int main(void)
-	{
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -19,4 +17,4 @@
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-	}
+}
