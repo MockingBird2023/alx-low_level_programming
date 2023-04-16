@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * convert_day - converts day of month to day of year, while accounting
- * for leap year
+ * convert_days - converts day of month to day of year,
+ *
  * @month: month in number format
  * @day: day of month
  * Return: day of year
  */
 
-int convert_day(int month, int day)
+int convert_days(int month, int day)
 {
 	switch (month)
 	{
@@ -45,7 +45,7 @@ int convert_day(int month, int day)
 		case 12:
 			day = 333 + day;
 			break;
-		default;
+		default:
 			break;
 	}
 	return (day);
